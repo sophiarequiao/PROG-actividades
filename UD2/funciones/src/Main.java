@@ -16,27 +16,69 @@ public class Main {
         System.out.println(celsiusAFahrenheit(31.0));
 
         System.out.println("\n Ejercicio 5: \n");
+        System.out.println(2.0);
 
         System.out.println("\n Ejercicio 6: \n");
+        System.out.println(media(6.0, 5.6, 3.9));
 
         System.out.println("\n Ejercicio 7: \n");
+        System.out.println("La manzana es " + "roja");
 
         System.out.println("\n Ejercicio 8: \n");
+        System.out.println(nombreCompleto("Pepito", "Pepito", "Pepito"));
 
         System.out.println("\n Ejercicio 9: \n");
+        System.out.println(2006);
 
         System.out.println("\n Ejercicio 10: \n");
+        presentacion("Pepito", "Pepito", "Pepito", 2006);
 
         System.out.println("\n Ejercicio 11: \n");
+        System.out.println("11001");
 
         System.out.println("\n Ejercicio 12: \n");
+        System.out.println("1754");
 
         System.out.println("\n Ejercicio 13: \n");
+        System.out.println("2A45F");
 
         System.out.println("\n Ejercicio 14: \n");
+        System.out.println(124);
 
         System.out.println("--------- Parte 2 ---------");
 
+        System.out.println("\n Ejercicio 1: \n");
+        bienvenida();
+
+        System.out.println("\n Ejercicio 2: \n");
+        bienvenidaNombre("Pepito");
+
+        System.out.println("\n Ejercicio 3: \n");
+        System.out.println(doble(34));
+
+        System.out.println("\n Ejercicio 4: \n");
+        System.out.println(precioConIVA(12.4));
+
+        System.out.println("\n Ejercicio 5: \n");
+        System.out.println(precioConImpuesto(12.4, "45%"));
+
+        System.out.println("\n Ejercicio 6: \n");
+        System.out.println(volumenCubo(10));
+
+        System.out.println("\n Ejercicio 7: \n");
+        System.out.println(tiempoASegundos(12, 15, 10));
+
+        System.out.println("\n Ejercicio 8: \n");
+        System.out.println(decoraTexto("texto de Sophia"));
+
+        System.out.println("\n Ejercicio 9: \n");
+        System.out.println(formateaNombre("Pepito", "Pérez Álvarez"));
+
+        System.out.println("\n Ejercicio 10: \n");
+        System.out.println("Aprobado: " + aprobado(4, 9, 6));
+
+        System.out.println("\n Ejercicio 11: \n");
+        alumnoAprobado("Pepito", "Pérez Álvarez", 4, 9, 6);
 
     }
 
@@ -133,7 +175,7 @@ public class Main {
     }
 
     public static String decoraTexto(String texto){
-        return "=== <" + texto + ">===";
+        return "===<" + texto + ">===";
     }
     public static String formateaNombre(String nombre, String apellidos){
         return apellidos + ", " + nombre;
@@ -144,7 +186,7 @@ public class Main {
     }
 
     public static void alumnoAprobado(String nombre, String apellidos, int nota1, int nota2, int nota3){
-        System.out.println(formateaNombre(nombre, apellidos) + " ha sido aprobado: " + aprobado(nota1,nota2,nota3));
+        System.out.println(formateaNombre(nombre, apellidos) + " ha aprobado: " + aprobado(nota1,nota2,nota3));
     }
 
 
