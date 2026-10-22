@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 
 public class Profesor {
-    String nombre;
-    String modulo;
-    int anyoIncorporacion;
+    private String nombre;
+    private String modulo;
+    private int anyoIncorporacion;
 
     public Profesor(String nombre, String modulo, int anyoIncorporacion) {
         this.nombre = nombre;

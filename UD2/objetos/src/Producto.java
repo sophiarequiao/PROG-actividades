@@ -1,7 +1,7 @@
 public class Producto {
-    String nombre;
-    double precio;
-    int stock;
+    private String nombre;
+    private double precio;
+    private int stock;
 
     public Producto(){
     }

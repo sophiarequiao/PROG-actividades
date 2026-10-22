@@ -1,9 +1,9 @@
 public class Alumno {
-    String nombre;
-    String apellidos;
-    double nota1;
-    double nota2;
-    double nota3;
+    private String nombre;
+    private String apellidos;
+    private double nota1;
+    private double nota2;
+    private double nota3;
 
     public Alumno(String nombre, String apellidos, double nota1, double nota2, double nota3) {
         this.nombre = nombre;
